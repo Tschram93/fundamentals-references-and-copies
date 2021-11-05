@@ -1,22 +1,25 @@
     // start with strings, numbers and booleans
-    let age = 100;
-    let age2 = age;
-    console.log(age, age2);
-    age = 200;
-    console.log(age, age2);
+    // let age = 100;
+    // let age2 = age;
+    // console.log(age, age2);
+    // age = 200;
+    // console.log(age, age2);
 
-    let name = 'Morgan';
-    let name2 = name;
-    console.log(name, name2);
-    name = 'Sierra';
-    console.log(name, name2);
+    // let name = 'Morgan';
+    // let name2 = name;
+    // console.log(name, name2);
+    // name = 'Sierra';
+    // console.log(name, name2);
+
     // Let's say we have an array
     const players = ['Travis', 'Sarah', 'Adam', 'Rebecca'];
 
     // and we want to make a copy of it.
+    const team = players;
 
+    console.log(players, team);
     // You might think we can just do something like this:
-
+    team[3] = 'Chris';
     // however what happens when we update that array?
 
     // now here is the problem!
